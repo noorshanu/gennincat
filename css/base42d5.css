@@ -868,6 +868,7 @@ body {
 .flex img{
   height: auto;
   width: 24px;
+  margin-right: 5px;
 }
 
 .modal-content {
@@ -1825,14 +1826,22 @@ align-items: center;
   position: absolute;
   right: 0;
   bottom: 0;
-  height: 140px;
+  height: 240px;
   width: auto;
 }
 .buyNow2{
   background-color: #000000;
   color: #fff;
   font-weight: 600;
+  font-size: 30px;
+  padding: 20px 2px;
   border-radius: 120px;
+  border: solid 2px #6fc077;
+}
+.buyNow2:hover{
+  background-color: #6fc077;
+  border-color: black;
+  color: ;
 }
 .rotate {
  
@@ -1931,7 +1940,13 @@ align-items: center;
   }
 }
 @media screen and (max-width: 760px) {
-  
+  .doge2{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 110px;
+    width: auto;
+  }
 #modal {
   position: fixed;
   top: 50%;
