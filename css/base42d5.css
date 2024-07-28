@@ -1248,6 +1248,7 @@ body {
 }
 .fNavigation {
   display: flex;
+  
   flex-wrap: wrap;
   padding-top: 60px;
   padding-bottom: 30px;
@@ -1940,6 +1941,13 @@ align-items: center;
   }
 }
 @media screen and (max-width: 760px) {
+  .fNavigation {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 60px;
+    padding-bottom: 30px;
+  }
   .doge2{
     position: absolute;
     right: 0;
