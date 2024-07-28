@@ -352,7 +352,7 @@ body {
 .contractLabel {
   color: #0e100a;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 28px;
   line-height: 30px;
   padding: 0 15px;
   border-radius: 25px 25px 25px 0;
@@ -1834,15 +1834,16 @@ align-items: center;
   background-color: #000000;
   color: #fff;
   font-weight: 600;
-  font-size: 30px;
-  padding: 20px 2px;
+  font-size: 50px;
+padding: 8px 24px;
+margin-top: 25px;
   border-radius: 120px;
   border: solid 2px #6fc077;
 }
 .buyNow2:hover{
   background-color: #6fc077;
   border-color: black;
-  color: ;
+
 }
 .rotate {
  
@@ -1970,7 +1971,11 @@ align-items: center;
   border-radius: 8px;
   border: 2px solid rgba(0, 0, 0, 0.13);
 }
+.buyNow2{
 
+  font-size: 30px;
+
+}
 
 
 
